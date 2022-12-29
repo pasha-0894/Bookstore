@@ -1,18 +1,19 @@
 import { CustomNavLink } from "components/CustomNavLink";
-import { Link, Outlet } from "react-router-dom";
+import { Header } from "components/Header";
+import { Outlet } from "react-router-dom";
 import { ROUTE } from "router";
+import { Container } from "./styles";
 
 export const MainTemplate = () => {
   return (
-    <div>
+    <Container>
+      <Header />
       <nav>
-        <CustomNavLink to={ROUTE.MAIN}>Main</CustomNavLink>
         <CustomNavLink to={ROUTE.SEARCH}>Search</CustomNavLink>
-        <CustomNavLink to={ROUTE.FAVORITES}>Favorites</CustomNavLink>
       </nav>
       <p>Test</p>
       <Outlet />
       <p>Test</p>
-    </div>
+    </Container>
   );
 };

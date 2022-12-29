@@ -1,5 +1,4 @@
 import { BookItem } from "components/BookItem";
-import React from "react";
 
 interface IProps {
   books: any;
