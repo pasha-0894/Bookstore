@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "@fontsource/bebas-neue";
 
 export const GlobalStyles = createGlobalStyle`
 html[theme='light']{

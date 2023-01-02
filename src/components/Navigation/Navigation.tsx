@@ -10,12 +10,11 @@ import {
 export const Navigation = () => {
   return (
     <StyledNavigation>
-      <StyledAccountIcon />
-      <StyledBasketIcon />
-
       <CustomNavLink to={ROUTE.FAVORITES}>
         <StyledFavoritesIcon />
       </CustomNavLink>
+      <StyledBasketIcon />
+      <StyledAccountIcon />
     </StyledNavigation>
   );
 };

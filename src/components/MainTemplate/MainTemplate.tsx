@@ -1,4 +1,5 @@
 import { CustomNavLink } from "components/CustomNavLink";
+import { Footer } from "components/Footer";
 import { Header } from "components/Header";
 import { Outlet } from "react-router-dom";
 import { ROUTE } from "router";
@@ -8,12 +9,8 @@ export const MainTemplate = () => {
   return (
     <Container>
       <Header />
-      <nav>
-        <CustomNavLink to={ROUTE.SEARCH}>Search</CustomNavLink>
-      </nav>
-      <p>Test</p>
       <Outlet />
-      <p>Test</p>
+      <Footer />
     </Container>
   );
 };

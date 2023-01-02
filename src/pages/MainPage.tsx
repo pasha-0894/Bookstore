@@ -1,23 +1,22 @@
+import { BookItem } from "components/BookItem";
 import { BookList } from "components/BookList";
 import { useEffect } from "react";
-import { useState } from "react";
+import { useAppSelector, useAppDispatch } from "store/hooks/hooks";
+import { fetchMain } from "store/main/mainSlice";
+import { getBooksMain } from "store/selectors/mainSelector";
 
 export const MainPage = () => {
-  const [books, setBooks] = useState([]); // Будет изменено на Redux
+  const { books, isLoading } = useAppSelector(getBooksMain);
+  const result = books.books;
+  const dispatch = useAppDispatch();
   useEffect(() => {
-    fetch("https://api.itbook.store/1.0/search/mongodb")
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        return data.books;
-      })
-      .then(setBooks);
-  }); // Будет изменено на Redux
+    dispatch(fetchMain());
+  }, [dispatch]);
 
   return (
     <div>
-      <BookList books={books} />
+      {isLoading && <span>Loading...</span>}
+      {result && result.length > 0 && <BookList books={result} />}
     </div>
   );
 };
