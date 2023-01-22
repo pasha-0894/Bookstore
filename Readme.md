@@ -1,1 +1,1 @@
-<img src="https://pasha-0894.github.io/Bookstore/" height="32"/>
+<a href="https://pasha-0894.github.io/Bookstore">Demo</a>
