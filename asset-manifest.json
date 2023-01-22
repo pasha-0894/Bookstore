@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/Bookstore/static/css/main.073c9b0a.css",
-    "main.js": "/Bookstore/static/js/main.205f1f4b.js",
-    "static/js/787.08f3454f.chunk.js": "/Bookstore/static/js/787.08f3454f.chunk.js",
-    "static/media/logo.svg": "/Bookstore/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Bookstore/static/css/main.fca24f1e.css",
+    "main.js": "/Bookstore/static/js/main.d95acabc.js",
+    "static/media/bebas-neue-all-400-normal.woff": "/Bookstore/static/media/bebas-neue-all-400-normal.a29dc33571b2d621af09.woff",
+    "static/media/bebas-neue-latin-400-normal.woff2": "/Bookstore/static/media/bebas-neue-latin-400-normal.2722c396c28250094a8c.woff2",
+    "static/media/bebas-neue-latin-ext-400-normal.woff2": "/Bookstore/static/media/bebas-neue-latin-ext-400-normal.f2363170269a33a9c268.woff2",
+    "static/media/Logo.svg": "/Bookstore/static/media/Logo.4df062493d3c8a2d9a244c508c206884.svg",
+    "static/media/NextIcon.svg": "/Bookstore/static/media/NextIcon.9594b1bea620b31138a18f83756d37ba.svg",
+    "static/media/ButtonBack.svg": "/Bookstore/static/media/ButtonBack.cfb3190c5eda02964eb88c799f100638.svg",
+    "static/media/StarDarkIcon.svg": "/Bookstore/static/media/StarDarkIcon.584447b874c1c3b35e3e06140759204c.svg",
+    "static/media/StarWhiteIcon.svg": "/Bookstore/static/media/StarWhiteIcon.8afb36acba46319dab66850570456756.svg",
+    "static/media/FavoritesIcon.svg": "/Bookstore/static/media/FavoritesIcon.b87d6f9aa07a91db538db09b0a33d0c6.svg",
+    "static/media/PrevIcon.svg": "/Bookstore/static/media/PrevIcon.58f637248cd930ec27614c2ed9d7d819.svg",
+    "static/media/FavoritesIconDisabled.svg": "/Bookstore/static/media/FavoritesIconDisabled.b6d1f9615f29f9ee55b3f8ad3d483c40.svg",
+    "static/media/FavoritesIconActive.svg": "/Bookstore/static/media/FavoritesIconActive.22983587b5c27a758cbb91b1cdc3509a.svg",
+    "static/media/MoreLogo.svg": "/Bookstore/static/media/MoreLogo.7e223dbd5bba0ef4ef43f018e9f32515.svg",
+    "static/media/TwitterLogo.svg": "/Bookstore/static/media/TwitterLogo.dcf8a3b85a6ec5dad6974d04b0a9b3d7.svg",
+    "static/media/BasketIcon.svg": "/Bookstore/static/media/BasketIcon.9b39632b8ee35ad594d5c70d298dc8d4.svg",
+    "static/media/AccountIcon.svg": "/Bookstore/static/media/AccountIcon.52b625ff0e0cbc9ce5be97fe6b6600da.svg",
+    "static/media/SearchIcon.svg": "/Bookstore/static/media/SearchIcon.fb7c71339a4b264dfb3e9806f3b103eb.svg",
+    "static/media/FacebookLogo.svg": "/Bookstore/static/media/FacebookLogo.e6b5d31c7e942f2458bd52883692ac16.svg",
     "index.html": "/Bookstore/index.html",
-    "main.073c9b0a.css.map": "/Bookstore/static/css/main.073c9b0a.css.map",
-    "main.205f1f4b.js.map": "/Bookstore/static/js/main.205f1f4b.js.map",
-    "787.08f3454f.chunk.js.map": "/Bookstore/static/js/787.08f3454f.chunk.js.map"
+    "static/media/SelectImg.svg": "/Bookstore/static/media/SelectImg.a8aeff15e90f0d6b2cf8738e437c7c96.svg",
+    "main.fca24f1e.css.map": "/Bookstore/static/css/main.fca24f1e.css.map",
+    "main.d95acabc.js.map": "/Bookstore/static/js/main.d95acabc.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.205f1f4b.js"
+    "static/css/main.fca24f1e.css",
+    "static/js/main.d95acabc.js"
   ]
 }
