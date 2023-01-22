@@ -3,5 +3,6 @@ export enum ROUTE {
   SEARCH = "search",
   NOT_FOUND = "*",
   FAVORITES = "favorites",
-  DETAILS = "books/:isbn",
+  DETAILS = "/books/:isbn",
+  ACCOUNT = "/account",
 }

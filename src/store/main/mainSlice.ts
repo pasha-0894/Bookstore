@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { booksAPI } from "services";
 
 interface IBooksState {
   books: any;
@@ -6,9 +7,7 @@ interface IBooksState {
 }
 
 export const fetchMain = createAsyncThunk<any[]>("main/fetchMain", async () => {
-  return await fetch("https://api.itbook.store/1.0/new").then((response) => {
-    return response.json();
-  });
+  return booksAPI.getNewBooks();
 });
 
 const initialState: IBooksState = {

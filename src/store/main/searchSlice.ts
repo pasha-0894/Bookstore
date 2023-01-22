@@ -44,6 +44,3 @@ const searchSlice = createSlice({
 export default searchSlice.reducer;
 
 export const { searchBooks } = searchSlice.actions;
-function creteAsyncThunk() {
-  throw new Error("Function not implemented.");
-}

@@ -1,14 +1,11 @@
-import { CustomNavLink } from "components/CustomNavLink";
-import { useEffect, useState } from "react";
+import { CustomNavLink } from "components";
 import { ROUTE } from "router";
-import { useAppDispatch, useAppSelector } from "store/hooks/hooks";
-import { fetchSearch, searchBooks } from "store/main/searchSlice";
-import { getBooksBySearch } from "store/selectors/searchSelector";
+import { useAppDispatch } from "store/hooks/hooks";
+import { searchBooks } from "store/main/searchSlice";
 import { ButtonSearch, Form, Input, StyledSearchIcon } from "./styles";
 
 export const Search = () => {
   const dispatch = useAppDispatch();
-  const { inputValue } = useAppSelector(getBooksBySearch);
 
   const handlerChange = (event: any) => {
     dispatch(searchBooks(event.target.value));

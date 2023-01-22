@@ -1,5 +1,5 @@
-import { BookItem } from "components/BookItem";
-import { BookListHeader, Container, StyledBookList } from "./styles";
+import { BookItem } from "components";
+import { Header, Container, StyledBookList } from "./styles";
 
 interface IProps {
   books: any[];
@@ -8,10 +8,10 @@ interface IProps {
 export const BookList = ({ books }: IProps) => {
   return (
     <Container>
-      <BookListHeader>New Releases Books</BookListHeader>
+      <Header>New Releases Books</Header>
       <StyledBookList>
         {books.map((book: any) => {
-          return <BookItem book={book} />;
+          return <BookItem book={book} key={book.id} />;
         })}
       </StyledBookList>
     </Container>

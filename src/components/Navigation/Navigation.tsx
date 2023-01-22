@@ -1,4 +1,4 @@
-import { CustomNavLink } from "components/CustomNavLink";
+import { CustomNavLink } from "components";
 import { ROUTE } from "router";
 import {
   StyledAccountIcon,
@@ -14,7 +14,9 @@ export const Navigation = () => {
         <StyledFavoritesIcon />
       </CustomNavLink>
       <StyledBasketIcon />
-      <StyledAccountIcon />
+      <CustomNavLink to={ROUTE.ACCOUNT}>
+        <StyledAccountIcon />
+      </CustomNavLink>
     </StyledNavigation>
   );
 };

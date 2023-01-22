@@ -10,7 +10,7 @@ export const StyledBookList = styled.div`
 
 export const Container = styled.div``;
 
-export const BookListHeader = styled.h1`
+export const Header = styled.h1`
   font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 400;

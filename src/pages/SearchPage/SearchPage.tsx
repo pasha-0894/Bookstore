@@ -1,4 +1,4 @@
-import { BookList } from "components/BookList";
+import { BookList } from "components";
 import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "store/hooks/hooks";
 import { fetchSearch } from "store/main/searchSlice";
@@ -11,7 +11,7 @@ export const SearchPage = () => {
   const dispatch = useAppDispatch();
   useEffect(() => {
     dispatch(fetchSearch(inputValue));
-  }, [dispatch]);
+  }, [dispatch, inputValue]);
 
   return (
     <div>
